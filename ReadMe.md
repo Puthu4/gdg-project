@@ -4,4 +4,4 @@
 - **Gemini API** – For interactive AI features  
 - **Google IDX** – Used for collaborative development and editing
 
-🔗 [Live App Link](https://gdg-project-nine.vercel.app/)
+🔗 [Live App Link](https://sjbit-gdg-updates-fzr2o.web.app/)
