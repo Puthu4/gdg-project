@@ -229,8 +229,9 @@ function App() {
       chatHistory.push({ role: "user", parts: [{ text: chatInput }] });
 
       const payload = { contents: chatHistory };
-      const apiKey = ""; // Canvas provides the API key at runtime for gemini-2.0-flash
+      const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
 
       const response = await fetch(apiUrl, {
         method: 'POST',
